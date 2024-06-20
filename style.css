@@ -1,0 +1,16 @@
+:root {
+    --yellow: #FDAD00;
+    --black: black;
+}
+
+.bg-yellow {
+background-color: var(--yellow);
+}
+
+ .navbar-brand, .navbar-nav .nav-item .nav-link {
+    color: var(--black);
+}
+
+.navbar-nav .nav-item .nav-link:hover{
+    color: rgb(73, 73, 73);
+}
